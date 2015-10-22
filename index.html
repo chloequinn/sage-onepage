@@ -6,13 +6,13 @@
 	<title>SAGE</title>
 	<!-- reset css -->
 	<link rel="stylesheet" type ="text/css" href="css/reset.css">
-	<!-- main styles -->
-	<link rel="stylesheet" type ="text/css" href="css/main.css">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<!-- Google Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Teko:400,300,500,600,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:900,700italic,700,600italic,600,400italic,400,200,200italic,300,300italic' rel='stylesheet' type='text/css'>
+	<!-- main styles -->
+	<link rel="stylesheet" type ="text/css" href="css/main.css">	
 </head>
 
 <body>
@@ -22,7 +22,7 @@
 		<!-- main nav -->
 		<nav>
 			<ul>
-				<li><a href="#">Home</a></li>
+				<li class="active"><a href="#">Home</a></li>
 				<li><a href="#">Projects</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Services</a></li>
@@ -31,13 +31,13 @@
 			</ul>
 		</nav>
 
-		<div id="social-nav">
-			<ul>
-				<li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
-				<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
-			</ul>
-		</div>
+		<!-- <div id="social-nav"> -->
+		<ul>
+			<li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
+		</ul>
+		<!-- </div> -->
 	</header>
 
 	<!-- Hero Section -->	
@@ -53,7 +53,7 @@
 						<a href="#">Explore More</a>
 					</div>
 				</li>
-				<li class="inactive">
+				<li>
 					<div class="title">
 						<h1>Title goes here</h1>
 						<p>
@@ -62,7 +62,7 @@
 						<a href="#">Explore More</a>
 					</div>
 				</li>
-				<li class="inactive">
+				<li>
 					<div class="title">
 						<h1>Title goes here</h1>
 						<p>
@@ -71,7 +71,7 @@
 						<a href="#">Explore More</a>
 					</div>
 				</li>
-				<li class="inactive">
+				<li>
 					<div class="title">
 						<h1>Title goes here</h1>
 						<p>
@@ -85,36 +85,39 @@
 			<nav>
 				<ul>
 					<li class="active"><a href="#"></a></li>
-					<li class="inactive"><a href="#"></a></li>
-					<li class="inactive"><a href="#"></a></li>
-					<li class="inactive"><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
 				</ul>
 			</nav>
 		</section>
 
 		<!-- Highlighted Projects Section -->		
 		<section id="highlighted">
-			<p>Current site section contains general information about our latest projects. We are focusing on website and mobile development, UI/UX and branding</p>
-			<h2>Highlighted Projects</h2>
+			<div>
+				<p>Current site section contains general information about our latest projects. We are focusing on website and mobile development, UI/UX and branding</p>
+				<h2>Highlighted Projects</h2>
 
-			<ul>
-				<li>
-					<a href="#"><img src="img/tesla.jpg" alt="Tesla Site"></a>
-				</li>
-				<li>
-					<a href="#"><img src="img/exmachina.jpg" alt="Ex Machina Site"></a>
-				</li>
-				<li>
-					<a href="#"><img src="img/enso.jpg" alt="Enso Site"></a>
-				</li>
-			</ul>
+				<ul>
+					<li>
+						<a href="#"><img src="img/tesla.jpg" alt="Tesla Site"></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/exmachina.jpg" alt="Ex Machina Site"></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/enso.jpg" alt="Enso Site"></a>
+					</li>
+				</ul>
+				
+				<a href="#">Discover More</a>
+				<p>*Site contains some recent projects. Detailed portfolio available upon request</p>
 
-			<a href="#">Discover More</a>
-			<p>*Site contains some recent projects. Detailed portfolio available upon request</p>
-		</section>
+			</div>
+		<!-- </section> -->
 
 		<!-- Featured Projects Section -->		
-		<section id="featured">
+		<!-- <section id="featured"> -->
 			<ul>
 				<li class="active">
 					<article>
@@ -147,7 +150,7 @@
 			<nav>
 				<ul>
 					<li class="active"><a href="#"></a></li>
-					<li class="inactive"><a href="#"></a></li>
+					<li><a href="#"></a></li>
 				</ul>
 			</nav>	
 		</section>
@@ -171,17 +174,17 @@
 				<ul>
 					<li>
 						<img src="img/project.png" alt="Finished Projects">
-						<p>2180</p>
+						<b>2180</b>
 						<p>Finished Projects</p>
 					</li>
 					<li>
 						<img src="img/mobile-screen.png" alt="Mobile Screens">
-						<p>105870</p>
+						<b>105870</b>
 						<p>Mobile Screens Designed</p>
 					</li>
 					<li>
 						<img src="img/flex-theme.png" alt="Flex Themes">
-						<p>345850</p>
+						<b>345850</b>
 						<p>Emails Sent</p>
 					</li>
 				</ul>
@@ -194,32 +197,32 @@
 			<ul>
 				<li> 
 					<img src="img/theme-icon.png" alt="Themes">
-					<h4>Exclusive and Flexible Theme</h4>
+					<h3>Exclusive and Flexible Theme</h3>
 					<p>Brilliant elegant club guests first-class. To gilded in crafted regal. Suite using crafted for wealth topiary. Wealth gold career de-jour left pedigree panoramic designer.</p>	
 				</li>
 				<li>
 					<img src="img/screen-icon.png" alt="Screens">
-					<h4>Material and Retina design</h4>
+					<h3>Material and Retina design</h3>
 					<p>Warm clean bold. World's permanent a any this rosy multi-purpose. Magically fat-free deeply remarkable amazing wherever easily much spicey simulated ideal UI high-tech sensible.</p>
 				</li>
 				<li>
 					<img src="img/support-icon.png" alt="Support">
-					<h4>Friendly Customer Support</h4>
+					<h3>Friendly Customer Support</h3>
 					<p>Yourself perfect plus parents pop-top people never price ordinary fat-free now. Advanced quick handcrafted flavored roasted survey triple economical smart. Sharpest refreshing brand.</p>
 				</li>
 				<li>
 					<img src="img/uiux-icon.png" alt="UI/UX Designs">
-					<h4>Engaging UI/UX Designs</h4>
+					<h3>Engaging UI/UX Designs</h3>
 					<p>Brand magically to real smells traditional mild each valuable. Credit-card but a customer red feedback bonus effective takes. Works ideal price juicy plush millions desire great clean market ready product.</p>
 				</li>
 				<li>
 					<img src="img/heart-icon.png" alt="Crafted with Love">
-					<h4>Hand-crafted with love</h4>
+					<h3>Hand-crafted with love</h3>
 					<p>Perfect desire and don't newest splash more if perfect asked mega. Catch racy surrender most like wealth. Dual artificial cheap advertising vast opportunity. Space deluxe idel UI and UX clean mountain as. </p>
 				</li>
 				<li>
 					<img src="img/flex-icon.png" alt="Responsive Design">
-					<h4>Fully Responsive and Flexible Design</h4>
+					<h3>Fully Responsive and Flexible Design</h3>
 					<p>Smart messy lost register squeezable a. Tropical ordinary youthful elegent comfort terrific. Sleek herbal all-over a spectacular kids. Desire picky happy style to. Satisfied compare mothers fast spicey dry longer.</p>
 				</li>	
 			</ul>
@@ -227,7 +230,7 @@
 
 		<!-- Call to Action Section -->
 		<section id="actioncall"> 
-			<h5>This is a call to action area</h5>
+			<h3>This is a call to action area</h3>
 			<p>You can use current block to place some important information</p>
 			<a href="#">Purchase SAGE Right Now</a>
 		</section>
@@ -238,8 +241,8 @@
 				<figure>
 					<img src="img/postit.jpg" alt="">
 				</figure>
-				<h6>News</h6>
-				<h5>Flexible Multi concept portfolio theme</h5>
+				<b>News</b>
+				<h3>Flexible Multi concept portfolio theme</h3>
 				<p>Spicey available value bonus satisfied every limited register. Permanent tough flexible what take mouthwatering. Bigger made quick flexible so guaranteed most open try compact inside.</p>
 				<a href="#">Explore More</a>	
 			</article>
@@ -247,8 +250,8 @@
 				<figure>
 					<img src="img/phone.jpg" alt="">
 				</figure>
-				<h6>Technology</h6>
-				<h5>Hand Crafted with love</h5>
+				<b>Technology</b>
+				<h3>Hand Crafted with love</h3>
 				<p>Choice vibrant handcrafted agree compare squeezable spicey vibrant. Our silky newer polished it's confident all lather sold deal class love. Lower to agree quenches dry will. A quickly much discover keeps.</p>
 				<a href="#">Explore More</a>	
 			</article>
@@ -256,8 +259,8 @@
 				<figure>
 					<img src="img/laptop.jpg" alt="">
 				</figure>
-				<h6>Life, News</h6>
-				<h5>Exclusive and Very Flexible theme Ever</h5>
+				<b>Life, News</b>
+				<h3>Exclusive and Very Flexible theme Ever</h3>
 				<p>Whiter guaranteed to sensible stimulates flip choose quickly warranty oily buy money. Pennies quenches polished. Believe neat bigger satisfying awesome natural spectacular healthy deeply.</p>
 				<a href="#">Explore More</a>
 			</article>
@@ -268,24 +271,24 @@
 		<section id="testimonial">
 			<ul>
 				<li class="active">
-					<p id="quote-sign">"</p><blockquote>Very much impressed with the quality of this theme and the great support from idealUI</blockquote>
-					<p>John Smith / CEO / International company</p>
+					<blockquote>"Very much impressed with the quality of this theme and the great support from idealUI</blockquote>
+					<cite>John Smith / CEO / International company</cite>
 				</li>
 				<li class="inactive">
 					<blockquote>Quote goes here</blockquote>
-					<p>Quote source goes here</p>
+					<cite>Quote source goes here</cite>
 				</li>
 				<li class="inactive">
 					<blockquote>Quote goes here</blockquote>
-					<p>Quote source goes here</p>
+					<cite>Quote source goes here</cite> 
 				</li>
 			</ul>
 
 			<nav>
 				<ul>
 					<li class="active"><a href="#"></a></li>
-					<li class="inactive"><a href="#"></a></li>
-					<li class="inactive"><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
 				</ul>
 			</nav>
 
@@ -313,7 +316,7 @@
 					</ul>
 				</div>
 				<!-- second set of companies in carousel inactive -->
-				<div class="inactive">  
+				<div>  
 					<ul>
 						<li>
 							<img src="img/connecto-icon.svg" alt="">
@@ -339,7 +342,7 @@
 				<nav>
 					<ul>
 						<li class="active"><a href="#"></a></li>
-						<li class="inactive"><a href="#"></a></li>
+						<li><a href="#"></a></li>
 					</ul>
 				</nav>
 			 </aside>
@@ -357,19 +360,19 @@
 			<aside id = "social-media">	
 				<ul>
 					<li>
-						<a href="#" target="_blank"><i class="fa fa-facebook-official"></i>Facebook
+						<a href="#" target="_blank"><i class="fa fa-facebook-official"></i><b>Facebook</b>
 						<p>Become a Friend</p></a>
 					</li>
 					<li>
-						<a href="#" target="_blank"><i class="fa fa-twitter"></i>Twitter
+						<a href="#" target="_blank"><i class="fa fa-twitter"></i><b>Twitter</b>
 						<p>Follow us on Twitter</p></a>
 					</li>
 					<li>
-						<a href="#" target="_blank"><i class="fa fa-google-plus-square"></i>Google +
+						<a href="#" target="_blank"><i class="fa fa-google-plus-square"></i><b>Google +</b>
 						<p>Add us to your circle</p></a>
 					</li>
 					<li>
-						<a href="#" target="_blank"><i class="fa fa-pinterest"></i>Pinterest
+						<a href="#" target="_blank"><i class="fa fa-pinterest"></i><b>Pinterest</b>
 						<p>Follow our profile</p></a>
 					</li>
 				</ul>
@@ -378,7 +381,7 @@
 	</main>	
 
 	<footer>
-		<p>&copy; 2015 SAGE Multipurpose Theme. Designed by idealUI</p>	
+		<small>&copy; 2015 SAGE Multipurpose Theme. Designed by idealUI</small>	
 		<ul>
 			<li>
 				<a href="#">Terms of Use</a>
